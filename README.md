@@ -24,7 +24,6 @@ The system is decomposed into several microservices, each responsible for a spec
 - **Database**: MongoDB / PostgreSQL (or your database of choice)
 - **API Gateway**: Can be built with Express.js or using a dedicated gateway like Ocelot or Express Gateway.
 - **Package Manager**: npm or yarn
-- **Containerization**: Docker, Docker Compose
 
 ## Getting Started
 
@@ -34,7 +33,6 @@ Follow these instructions to get the project up and running on your local machin
 
 - Node.js 16.x or later
 - npm 8.x+ or yarn
-- Docker and Docker Compose (Recommended)
 - An IDE like VS Code
 
 ### Installation
