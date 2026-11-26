@@ -8,6 +8,9 @@
     "request": "^2.88.2"
   },
   "scripts": {
-    "start": "nodemon oders.js"
+    "start": "nodemon oders.js",
+    "predev": "node ../scripts/security-guard.js",
+    "prebuild": "node ../scripts/security-guard.js",
+    "prestart": "node ../scripts/security-guard.js"
   }
 }
